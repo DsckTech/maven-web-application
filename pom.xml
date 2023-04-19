@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla-pipeline</finalName>
+		<finalName>tesla23app-pipeline</finalName>
 		
 		<plugins>
 			<plugin>
