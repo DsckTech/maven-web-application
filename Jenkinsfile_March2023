@@ -6,6 +6,7 @@ node{
  stage('2MavenBuild'){
    sh "${mavenHome}/bin/mvn package"
  }
+ /*
  stage('3codeQuality'){
    sh "${mavenHome}/bin/mvn sonar:sonar"
  }
@@ -29,4 +30,5 @@ emailext body: '''Hello team!
 Build is done
 Descha''', recipientProviders: [contributor(), developers()], subject: 'Build Status', to: 'vfkouam@hotmail.co.uk'  
 }
+*/
 }
